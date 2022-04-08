@@ -2,7 +2,7 @@ site_name: estala.com
 site_url: https://estalav.github.io
 theme:
   language: en
-  name: mkdocs
+  name: readthedocs
   highlights: true
   palette:
       scheme: default
