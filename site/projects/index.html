@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="https://estalav.github.io/projects/">
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Projects - estala.com</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
+
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">estala.com</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href=".." class="nav-link">Home</a>
+                            </li>
+                            <li class="navitem active">
+                                <a href="./" class="nav-link">Projects</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href=".." class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" class="nav-link disabled">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            
+            
+            
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h3 id="customer-experience">Customer Experience</h3>
+<ul>
+<li>As SAP TQM I was focusing on-time delivery in all SAP AGS Max attention projects which I was assigned , e.g Coca-Cola FEMSA, etc.</li>
+</ul>
+<p>In which I provided a plan for:</p>
+<ul>
+<li>Technical risk mitigation and managing the top issues;</li>
+<li>Collaborated proactively to develop a services plan to meet project goals;</li>
+<li>Standardized support processes for implementation, upgrade, and operations; - assisted in the preparation of the balanced scorecard;</li>
+<li>helped to ensure that solutions met technical requirements during all phases of the engagement.   </li>
+<li>Effective Onsite support during Golive</li>
+</ul>
+<h3 id="projects-and-technology">Projects and Technology</h3>
+<ul>
+<li>Recently I'm leading (design/build and Run )the Observability Service (Metrics, Logging, tracing ) for my SAP internal  and it's focus to provide actionable items to internal developers<ul>
+<li>Technical resources :
+APM (Application performance Management) using ELK, Dynatrace, SAP FRUN</li>
+<li>Incident Management , designed and implementation for PagerDuty and on-prem web services in the SAP internal Cloud.</li>
+<li>Self healing using StackStorm and Chef scripts which can lead to avoid security risks.</li>
+<li>Log analytics designing &amp; implementing Splunk Dashboards, Glass tables based on API</li>
+<li>Integration to ELK, Slack, Ms Team using Webhooks</li>
+<li>Preparation for hacking simulations correcting security OS patches on VM and services.</li>
+</ul>
+</li>
+</ul>
+<h3 id="devops">DEVOPS</h3>
+<ul>
+<li>
+<p>Specially this project requires the close collaboration with DEVOPS teams to understand their code and integrate the monitoring with their pipelines to correct performance and other error during deployment (Jenkins, and Azure Pipelines).</p>
+</li>
+<li>
+<p>Result of this collaboration help us to participate in additional projects such as "OS Software replacement" which required to design/build support GKE cluster with RabbitMQ to perform activities link to their Jenkins Pipelines.</p>
+</li>
+<li>
+<p>Knowledge in K8S Google Cloud Platform and AWS
+      Terraform to automate the GKE cluster creation.</p>
+</li>
+<li>
+<p>During the definition of this service it was necessary to complete and get the technical approval for the Security concept which validated that all traffic is encrypted and under SAP standards.</p>
+</li>
+</ul>
+<h3 id="security">Security</h3>
+<p>All listed projects requires to design and implement the Security standards such as:
+    - Monitoring alert with Prisma (Palo Alto networks)
+    - Passwords closely guard in the Vault and carefully usage of API's to extract secrets.
+    - Definition of Access Profiles for my projects
+    - Definition of Firewall rules.
+    - Analysis of Logs and Alert in Splunk, Logstash</p>
+<ul>
+<li>In Addition,I'm working to:<ul>
+<li>define a new internal services "Prometheus as service on K8S environments " this requires</li>
+<li>Collaboration / definition with the FUNCTIONS AS Service using GKE and Open FAAS which have the goal to create/run shareable functions (code) as micro-services across multiple teams , this project will create metrics that will be consolidated/aggregated in a data lake so it's one source of information</li>
+</ul>
+</li>
+</ul></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

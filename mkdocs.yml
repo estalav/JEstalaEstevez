@@ -1,0 +1,18 @@
+site_name: Jaime F. Estala  ----- Estala.com
+site_url: https://estalav.github.io
+theme:
+  language: en
+  name: mkdocs
+  highlights: true
+  palette:
+      scheme: default
+      primary: amber
+      accent: deep orange
+nav:
+    - Home: index.md
+    - Projectos: projectos.md
+    - Logors: logros.md
+    - Experiencia Laboral: experiencia.md
+markdown_extensions:
+  - attr_list
+  - md_in_html
