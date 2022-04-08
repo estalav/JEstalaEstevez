@@ -1,4 +1,4 @@
-site_name: estala.com
+site_name: jaime.estala.com
 site_url: https://estalav.github.io
 theme:
   language: en
@@ -8,19 +8,6 @@ theme:
       scheme: default
       primary: amber
       accent: deep orange
-  features:
-    - content.tabs.link
-    - navigation.tabs
-    - navigation.expand
-    - navigation.top
-    - navigation.sections
-    - toc.integrate
-    - navigation.instant
-    - navigation.tracking
-    - navigation.indexes
-    - header.autohide
-    - content.tabs.link
-    - navigation.tabs.sticky
 nav:
     - Curriculo: index.md
     - Projectos: projectos.md
@@ -34,17 +21,3 @@ extra_css:
 markdown_extensions:
   - attr_list
   - md_in_html
-  - pymdownx.superfences
-  - tables
-  - pymdownx.critic
-  - pymdownx.caret
-  - pymdownx.keys
-  - pymdownx.mark
-  - pymdownx.tilde
-  - attr_list
-  - admonition
-  - def_list
-  - meta
-  - admonition
-  - pymdownx.details
-  - pymdownx.superfences
