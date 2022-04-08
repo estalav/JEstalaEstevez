@@ -1,4 +1,4 @@
-site_name: Jaime F. Estala  ----- Estala.com
+site_name: estala.com
 site_url: https://estalav.github.io
 theme:
   language: en
@@ -10,9 +10,7 @@ theme:
       accent: deep orange
 nav:
     - Home: index.md
-    - Projectos: projectos.md
-    - Logors: logros.md
-    - Experiencia Laboral: experiencia.md
+    - Projects: projects.md
 markdown_extensions:
   - attr_list
   - md_in_html

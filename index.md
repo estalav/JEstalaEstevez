@@ -1,21 +1,39 @@
-# JAIME FRANCISCO ESTALA ESTEVEZ
+## Welcome to GitHub Pages
 
-- **Licenciado en Administración Pública**
-- FECHA DE NACIMIENTO:
-  - CD. MEX-01 DE FEB. DE 1954
-- **CURP**: EAEJ540201HDFSSM01
-- **RFC**: EAEJ540201EJ8
-  - CORREO ELECTRONICO: jestalae@hotmail.com
-  - **MOVIL**: 55-2174-4602
+THIS PaGE is to apologize with PEARL
 
-![Jaime F. Estala E.](image/JFEE.png){loading=lazy  align=right width="300"} Email : jestalae@hotmail.com
+You can use the [editor on GitHub](https://github.com/tradeby8/test/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-### EXTRACTO CURRICULAR Y APORTACIONES ADMINISTRATIVAS
+Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
+### Markdown
 
-* Licenciado en Administración Pública – Facultad de Ciencias Políticas y Sociales
-Universidad Nacional Autónoma de México / Cédula Profesional No. 09618387.
+Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-* La experiencia obtenida en cargos de dirección, mi formación académica y el interés por la administración pública fueron determinantes para asimilar enseñanzas y conocimientos, los que me favorecieron recientemente siendo Coordinador de Administración y más tarde Encargado del Despacho de una Subsecretaria de Estado, en donde dimensione y sensibilice las delicadas tareas asignadas; adquiriendo una amplia perspectiva de las responsabilidades administrativas, su problemática, antecedentes, proyección y la necesidad de cambiar hacia una mejora continua ligada a resultados.
+```markdown
+Syntax highlighted code block
 
-* En este nivel de compromiso, identifique que para cumplir con los objetivos del Plan Nacional de Desarrollo (PNR) las dependencias deben articular sus Reglamentos Internos (RI) y fortalecer su integración a un modelo de administración reformado, en donde las “Unidades clave” para consumar los ejes programáticos del PNR,  son y seguirán siendo las Direcciones Generales, ya que estas oficinas son las de mayor personal, en donde se procesan las respuestas y se ejerce el presupuesto;  sin embargo, ante evidentes desactualizaciones en su organización interna han caído en desaciertos; por lo mismo, inaplazablemente deben rediseñarse y hacer eficaz su trabajo, participar de una política pública que genere “Cultura Administrativa en el Servicio Público” en donde se concientice a los servidores públicos sobre los beneficios de su condición laboral y su irrenunciable responsabilidad social, comprometiéndose con la eficacia laboral y el trabajo en equipo, sujetando su permanencia a las evaluaciones de desempeño individual.      
+# Header 1
+## Header 2
+### Header 3
+
+- Bulleted
+- List
+
+1. Numbered
+2. List
+
+**Bold** and _Italic_ and `Code` text
+
+[Link](url) and ![Image](src)
+```
+
+For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+
+### Jekyll Themes
+
+Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/tradeby8/test/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+
+### Support or Contact
+
+Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
